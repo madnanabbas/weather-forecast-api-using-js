@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast API</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <form class="example">
+          <input
+            type="text"
+            placeholder="Search for Location / City"
+            name="search"
+            id="search"
+          />
+          <button id="searchBtn" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+      <div class="notification"></div>
+      <div class="widget">
+        <div class="left-panel panel">
+          <div class="date">
+            Monday, 20 Aug 2018
+          </div>
+          <div class="city location"></div>
+          <div class="temp">
+            <div class="weather-icon">
+              <img
+                src="https://s5.postimg.cc/yzcm7htyb/image.png"
+                alt=""
+                width="60"
+              />
+            </div>
+
+            <span>&deg;</span>
+          </div>
+        </div>
+        <div class="right-panel panel">
+          <img
+            src="https://s5.postimg.cc/lifnombwz/mumbai1.png"
+            alt=""
+            width="160"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
+
+<!-- <div class="app-title">Weather</div>
+      <div class="notification">User denied Geolocation</div>
+      <div class="weather-container">
+        <div class="weather-icon">
+          <img src="icons/black/png/256x256/unknown.png" width="128px" alt="" />
+        </div>
+        <div class="temperature-value">
+          <p>-&deg <span>C</span></p>
+        </div>
+        <div class="temperature-description">
+          <p>-</p>
+        </div>
+        <div class="location">
+          <p>-</p>
+        </div>
+      </div> -->

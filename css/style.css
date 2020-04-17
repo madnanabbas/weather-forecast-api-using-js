@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.search {
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  width: 455px;
+}
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  font-family: "Roboto", "sans-serif";
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 12%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  background: #d22222;
+}
+
+div.widget {
+  position: relative;
+  width: 355px;
+  height: 125px;
+  margin: 150px auto;
+  background-color: #fcfdfd;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -26px #080c21;
+}
+
+div.left-panel {
+}
+
+div.date {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+div.city {
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+div.temp {
+  font-size: 81px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 100;
+}
+.weather-icon {
+}
+
+div.panel {
+  display: inline-block;
+}
+
+div.right-panel {
+  position: absolute;
+  float: right;
+  top: 0;
+  margin-top: 35px;
+  padding-left: 10px;
+}
